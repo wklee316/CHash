@@ -17,8 +17,6 @@ namespace MuSeoun_Engine
 			{
 				COORD playerPosition = { x, y };
 				SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), playerPosition);
-
-
 			}
 
 			void SetCursorState(bool isActive)
