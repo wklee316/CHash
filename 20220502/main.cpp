@@ -34,9 +34,6 @@ int main(void)
         ratio = width / (float)height;
 
 
-        //glClearColor(0, 0, 1, 1);
-        //glClear(GL_COLOR_BUFFER_BIT);
-
         glfwSwapBuffers(window);
         glfwPollEvents();
     }
